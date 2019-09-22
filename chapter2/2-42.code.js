@@ -11,8 +11,9 @@ var aa = flatten([1,2,3,4,5,[5,6,7],[8]]);
 
 console.log(aa);
 
-function test(a, b, c){
+(function (a, b, c){
     console.log("a b c", a, b, c);
     console.log("this", this);
     console.log("arguments", argument);
-}
+})
+
